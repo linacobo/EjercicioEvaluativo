@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Examen</title>
+	<link rel="stylesheet" type="text/css" href="">
+	<script type="text/javascript">
+	<script src ="js/script.js"
+
+		function datos(){
+			var tamañofoto = document.form1.value();
+			var memoriainterna = document.form1.value();
+			var cantidadfotos = document.form1.value();
+
+			alert(tamañofoto);
+			alert(memoriainterna);
+			alert(cantidadfotos);
+
+		}
+	</script>
+</head>
+<body>
+<br></br>
+
+<form name="form1">
+<table align="center">
+         <h1>ALMACENAMIENTO DE FOTOS</h1>
+	<tr>
+		<td>Tamaño Foto</td>
+		<td><input type="text" name="tamañofoto" id="tamañofoto"></td>
+	</tr>
+	<tr>
+		<td>Memoria Interna</td>
+		<td><input type="text" name="memoriainterna" id="memoriainterna"></td>
+	</tr>
+	<tr>
+		<td>Cantidad Fotos</td>
+		<td><input type="text" name="cantidadfotos" id="cantidadfotos"></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><input type="submit" value="Calcular" onclick="datos()"></td>
+		<td><input type="submit" value="Limpiar" onclick="datos()"></td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
